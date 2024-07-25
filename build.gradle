@@ -13,6 +13,10 @@ java {
     }
 }
 
+bootJar{
+    archiveFileName = 'demo-server.jar'
+}
+
 repositories {
     mavenCentral()
 }
