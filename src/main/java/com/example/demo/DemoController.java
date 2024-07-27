@@ -10,7 +10,7 @@ public class DemoController {
     @GetMapping("/v1/{text}")
     public String demoV1(@PathVariable String text){
         StringBuilder sb = new StringBuilder(text);
-        sb.append("첫번째");
+        sb.append("두번째");
         return sb.toString();
     }
 
